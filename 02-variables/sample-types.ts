@@ -3,6 +3,12 @@ let grade: number = 88.6;
 let firstName: string = 'Anup';
 let lastName: string = "Kumar";
 
+
+//Breaking the variables
+//found = 0;
+//grade = "A";
+//firstName = false;
+
 console.log(found);
 console.log(grade);
-console.log("Hi " + firstName + " " + lastName);
+console.log(`Hi ${firstName} ${lastName}`);
