@@ -5,5 +5,11 @@ let sportsOne: string[] =["Golf", "Cricket", "Tennis", "Swimming"]
 // }
 
 for(let tempSport of sportsOne){
-    console.log(tempSport);
+    if(tempSport == "Cricket"){
+        console.log(tempSport + "<< My Favorite!")
+    }
+    else{
+        console.log(tempSport);
+    }
+    
 }
